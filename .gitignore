@@ -1,0 +1,3 @@
+*/node_modules/*
+/hello/bundle.js
+/hello/build_hello.js
