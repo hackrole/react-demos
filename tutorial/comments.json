@@ -1,17 +1,12 @@
 [
     {
-        "text": "Hey there!",
         "id": 1388534400000,
-        "author": "Pete Hunt"
+        "author": "Pete Hunt",
+        "text": "Hey there!"
     },
     {
-        "text": "React is *great*!",
         "id": 1420070400000,
-        "author": "Paul O\u2019Shannessy"
-    },
-    {
-        "text": "fuck snow",
-        "id": 1455427120778,
-        "author": "hacktest"
+        "author": "Paul O’Shannessy",
+        "text": "React is *great*!"
     }
 ]
