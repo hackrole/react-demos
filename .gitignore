@@ -1,2 +1,3 @@
 */node_modules/*
 /hello/build_hello.js
+/tutorial/build/*.js
