@@ -25,10 +25,11 @@ def comments_handler():
         comments.append(newComment)
 
         with open('comments.json', 'w') as f:
-            file.write(json.dumps(comments, indent=4, separators=(',', ': ')))
+            f.write(json.dumps(comments, indent=4, separators=(',', ': ')))
 
     return Response(json.dumps(comments), mimetype='application/json', headers={'Cache-Control': 'no-cache'})
 
 
 if __name__ == "__main__":
+    app.debug = True
     app.run(port=int(os.environ.get('PORT', 8000)))
