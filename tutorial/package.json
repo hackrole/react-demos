@@ -4,7 +4,8 @@
   "description": "react office tutorial demo",
   "main": "index.js",
   "scripts": {
-    "test": "browserify -t [ babelify --presets [ react ] ] public/js/tutorial.js -o public/js/build/tutorial.js"
+    "test": "browserify -t [ babelify --presets [ react ] ] public/js/tutorial.js -o public/js/build/tutorial.js",
+    "start": "python server.py"
   },
   "keywords": [
     "react"
